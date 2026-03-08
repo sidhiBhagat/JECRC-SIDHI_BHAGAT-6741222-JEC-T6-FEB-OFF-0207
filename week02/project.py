@@ -45,7 +45,7 @@ class TODO:
     def toggle_mark_as_completed(self, id):
         for todo in self.todos:
             if todo['id'] == id:
-                todo['is_completed'] = ~todo['is_completed']
+                todo['is_completed'] = not todo['is_completed']
     
     def completed_todos(self):
         if len(self.todos) == 0: return
@@ -65,4 +65,5 @@ class TODO:
 obj=TODO()
 # obj.add_todo("learn python")
 obj.display_todos()
+
 
