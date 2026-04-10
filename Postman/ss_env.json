@@ -1,0 +1,40 @@
+{
+	"id": "2a975047-8f75-47e5-8c68-6e3f4d1de9fa",
+	"name": "Shoppersstack_env",
+	"values": [
+		{
+			"key": "base_url",
+			"value": "https://www.shoppersstack.com/shopping",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "shopperId",
+			"value": 384526,
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "shopperEmail",
+			"value": "burgerpizza@gmail.com",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "shopperPwd",
+			"value": "shishi12",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "jwtToken",
+			"value": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJidXJnZXJwaXp6YUBnbWFpbC5jb20gU0hPUFBFUiIsImV4cCI6MTc3NTgzMzk5NywiaWF0IjoxNzc1Nzk3OTk3fQ.6M6CjR9KxfcfSrn_pkJUfroLLTPI5Hh5PUpYZ4k9RH4",
+			"type": "any",
+			"enabled": true
+		}
+	],
+	"color": null,
+	"_postman_variable_scope": "environment",
+	"_postman_exported_at": "2026-04-10T07:35:20.503Z",
+	"_postman_exported_using": "Postman/12.5.5"
+}
